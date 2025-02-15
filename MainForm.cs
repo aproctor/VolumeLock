@@ -61,7 +61,8 @@ public class MainForm : Form
         {
             Text = "Lock Volume",
             Location = new Point(10, 60),
-            AutoSize = true
+            AutoSize = true,
+            Checked = true
         };
         lockVolumeCheckbox.CheckedChanged += LockVolumeCheckbox_CheckedChanged;
 
@@ -77,6 +78,9 @@ public class MainForm : Form
 
         // Set initial slider value
         volumeSlider.Value = (int)(micDevice.AudioEndpointVolume.MasterVolumeLevelScalar * 100);
+
+        // Initialize locked volume and start timer since lock is enabled by default
+        lockedVolume = micDevice.AudioEndpointVolume.MasterVolumeLevelScalar;
     }
 
     private void SetupVolumeCheckTimer()

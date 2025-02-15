@@ -1,0 +1,8 @@
+D:\code\VolumeLock\bin\Release\netcoreapp3.1\publish\VolumeLock.exe
+D:\code\VolumeLock\bin\Release\netcoreapp3.1\publish\microphone.ico
+D:\code\VolumeLock\bin\Release\netcoreapp3.1\publish\VolumeLock.dll
+D:\code\VolumeLock\bin\Release\netcoreapp3.1\publish\VolumeLock.deps.json
+D:\code\VolumeLock\bin\Release\netcoreapp3.1\publish\VolumeLock.runtimeconfig.json
+D:\code\VolumeLock\bin\Release\netcoreapp3.1\publish\VolumeLock.pdb
+D:\code\VolumeLock\bin\Release\netcoreapp3.1\publish\NAudio.Core.dll
+D:\code\VolumeLock\bin\Release\netcoreapp3.1\publish\NAudio.Wasapi.dll
