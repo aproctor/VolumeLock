@@ -1,0 +1,17 @@
+D:\code\VolumeLock\bin\Debug\netcoreapp3.1\VolumeLock.exe
+D:\code\VolumeLock\bin\Debug\netcoreapp3.1\VolumeLock.deps.json
+D:\code\VolumeLock\bin\Debug\netcoreapp3.1\VolumeLock.runtimeconfig.json
+D:\code\VolumeLock\bin\Debug\netcoreapp3.1\VolumeLock.runtimeconfig.dev.json
+D:\code\VolumeLock\bin\Debug\netcoreapp3.1\VolumeLock.dll
+D:\code\VolumeLock\bin\Debug\netcoreapp3.1\VolumeLock.pdb
+D:\code\VolumeLock\bin\Debug\netcoreapp3.1\NAudio.Core.dll
+D:\code\VolumeLock\bin\Debug\netcoreapp3.1\NAudio.Wasapi.dll
+D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.csproj.AssemblyReference.cache
+D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.AssemblyInfoInputs.cache
+D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.AssemblyInfo.cs
+D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.csproj.CoreCompileInputs.cache
+D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.csproj.CopyComplete
+D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.dll
+D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.pdb
+D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.genruntimeconfig.cache
