@@ -3,6 +3,7 @@ using NAudio.CoreAudioApi.Interfaces;
 using System.Windows.Forms;
 using System;
 using System.Drawing;
+using System.IO;
 
 public class MainForm : Form
 {
@@ -27,12 +28,13 @@ public class MainForm : Form
         this.ShowInTaskbar = false;
         this.WindowState = FormWindowState.Minimized;
         this.FormBorderStyle = FormBorderStyle.FixedToolWindow;
-        this.Size = new Size(200, 100);
+        this.Size = new Size(250, 120);
+        this.Text = "Microphone Volume";
 
         // Create tray icon
         trayIcon = new NotifyIcon()
         {
-            Icon = SystemIcons.Application,
+            Icon = new Icon(Path.Combine(Application.StartupPath, "microphone.ico")),
             Visible = true,
             Text = "Microphone Volume Controller"
         };
@@ -49,7 +51,8 @@ public class MainForm : Form
             Minimum = 0,
             Maximum = 100,
             Location = new Point(10, 10),
-            Width = 150
+            Width = 210,
+            Height = 45
         };
         volumeSlider.ValueChanged += VolumeSlider_ValueChanged;
 
@@ -57,7 +60,8 @@ public class MainForm : Form
         lockVolumeCheckbox = new CheckBox()
         {
             Text = "Lock Volume",
-            Location = new Point(10, 40)
+            Location = new Point(10, 60),
+            AutoSize = true
         };
         lockVolumeCheckbox.CheckedChanged += LockVolumeCheckbox_CheckedChanged;
 

@@ -15,3 +15,4 @@ D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.csproj.CopyComplete
 D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.dll
 D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.pdb
 D:\code\VolumeLock\obj\Debug\netcoreapp3.1\VolumeLock.genruntimeconfig.cache
+D:\code\VolumeLock\bin\Debug\netcoreapp3.1\microphone.ico
